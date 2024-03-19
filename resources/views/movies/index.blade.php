@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'Pagina iniziale')
+@section('title', 'Lista dei film')
 
 @section('main-content')
     <section>
         <div class="container py-4">
-            <h1>HOMEPAGE </h1>
+            @dump($movies)
         </div>
     </section>
 @endsection

@@ -5,7 +5,7 @@
 @section('main-content')
     <section>
         <div class="container py-4">
-            <h1>HOMEPAGE </h1>
+            <h1>MOVIES </h1>
         </div>
     </section>
 @endsection
