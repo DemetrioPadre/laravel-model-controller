@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Movie extends Model
 {
-    // protected $table = 'movies';
+    protected $table = 'movies';
 
 
-    // protected $primaryKey = 'movies_id';
+    protected $primaryKey = 'movies_id';
 }
